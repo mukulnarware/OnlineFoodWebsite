@@ -1,0 +1,655 @@
+
+*{
+	margin: 0px;
+ /*font-family: Roboto, arial, sans-serif;*/
+
+}
+/*css for header*/
+#header{
+	display: block;
+	/*border: solid red;*/
+	text-align: center;
+	justify-content: center;
+
+
+}
+#OurBlogHead{
+	font-size: 30px;
+   font-family: 'Spectral', serif;
+
+}
+/*/////////////////////////////*/
+#heading{
+
+ font-style: italic;
+ font-size: 40px;
+ 
+    font-family: 'Spectral', serif;
+      padding: 20px 34px;
+}
+
+#container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 45px 65px;
+	background: transparent;
+	background: url(https://templatemo.com/templates/templatemo_507_victory/img/heading-bg.jpg) no-repeat center center/cover;
+	color: white;
+	font-weight: bold;
+
+}
+#container p{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 45px 105px;
+
+}
+.blogpage{
+	/*border: solid black;*/
+	
+}
+.blogcontainer{
+	display: flex;
+	flex-direction: column;
+	/*border: solid red;*/
+	justify-content: center;
+ 	align-items: center;
+	padding: 32px 119px;
+	padding-top: 80px;
+
+
+}
+.blog-item{
+	display: block;
+	/*border :solid yellow;*/
+	justify-content: center;
+	align-items: center;
+	width: 750px;
+    height: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.blog-item img{
+	width: 750px;
+	
+	margin: 0px 0px;
+}
+    
+.date{
+ 
+	color: #f2745f;
+    background-color: rgba(250, 250, 250, 0.9);
+	position: absolute;
+    padding: 8px 14px;
+	font-weight: bold;
+    font-size: 17px;
+	top: 0px;
+	left: 0px;
+}
+.content h4{
+	margin-bottom: 12px;
+}
+.content span{
+	margin-bottom: 22px;
+	
+
+	
+}
+.content p{
+	margin-bottom: 14px;
+	margin-top: 10px;
+
+	
+	font-size: 13px;
+
+	
+}
+.read-more a{
+	color: #f2745f;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+.content {
+	margin: 0px 0px;
+    background-color: #f2f6ff;
+    padding: 20px 30px;
+    /*border: solid red;*/
+}
+
+.page-number-container{
+margin-top: 30px;
+margin-bottom: 100px;
+display: inline-block;
+justify-content: center;
+text-align: center;
+
+}
+
+.page-number{
+	display: flex;
+	/*border: solid black;*/
+	justify-content : center;
+	text-align: center;
+	align-items: center;
+
+}
+
+.page-number li{
+	list-style: none;
+	padding: 10px 0px;
+
+	margin: 0px 8px;
+	background-color:#f2f6ff;
+	/*border: solid red;*/
+
+}
+.page-number a{
+	/*border: solid yellow;*/
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+.page-number a:hover{
+	/*border: solid yellow;*/
+    font-size: 15px;
+    font-weight: bold;
+    background-color:#F2745F; 
+    color: black;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+.activated{
+    background-color:#F2745F; 
+
+}
+
+
+#bottom-feature-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 400px;
+	background: transparent;
+	background: url("https://templatemo.com/templates/templatemo_507_victory/img/signup-bg.jpg") no-repeat center center/cover;
+	color: white;
+	font-weight: bold;
+
+}
+
+#bottom-feature-container-head{
+	margin-bottom: 40PX;
+
+}
+
+/*///////////////////////////////////////////////////////*/
+@media screen and (max-width: 1100px)
+
+{
+
+	.date{
+ 
+	color: #f2745f;
+    background-color: rgba(250, 250, 250, 0.9);
+	position: absolute;
+    padding: 8px 14px;
+	font-weight: bold;
+    font-size: 17px;
+	top: 0px;
+	left: 150px;
+}
+
+.blog-item{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/*border :solid yellow;*/
+	justify-content: center;
+	align-items: center;
+	width: 750px;
+    height: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+
+.content {
+	margin: 0px 0px;
+    background-color: #f2f6ff;
+    padding: 20px 30px;
+    /*border: solid red;*/
+    /*text-align: center;*/
+   width: 50%;
+   margin: auto;
+}
+
+.blog-item img{
+	/*width: 750px;*/
+	width: 59%;
+
+	
+	margin: 0px;
+}
+#heading{
+ border-bottom: 0.21px solid gray;
+ font-style: italic;
+ font-size: 40px;
+ 
+    font-family: 'Spectral', serif;
+      padding: 20px 34px;
+}
+
+
+
+
+
+
+#toggle-navbar{
+	display: flex;
+	/*border: solid yellow;*/
+	padding:8px 5px; 
+	text-align: center;
+
+	margin: 15px auto;
+	color: black;
+	background-color: orange;
+	
+   
+}
+.navbarItems{
+	padding: 15px 15px;
+	font-weight: bold;
+	 display: none;
+}
+.navbarItems a{
+	margin: 0px 15px;
+	color: gray;
+	font-weight: bolder;
+	text-decoration: none;
+     display: none;
+}
+
+/*.toggle-navbarItems{
+	 
+
+}
+.toggle-navbarItems a{
+	
+      
+}*/
+
+
+
+
+
+	#bottom-feature-container{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 80px;
+	background: transparent;
+	background: url("https://templatemo.com/templates/templatemo_507_victory/img/signup-bg.jpg") no-repeat center center/cover;
+	color: white;
+	font-weight: bold;
+
+
+}
+
+
+
+
+.signup-form{
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	width: 500Px;
+	align-items: center;
+	padding: 0px;
+	/*border: solid red;*/
+}
+
+.signup-form input{
+
+padding: 12px 20px;
+border-style: none;
+outline: none;
+line-height: 1.4554;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+border-radius: 3px;
+width: 80%;
+margin:14px 14px;
+
+}
+.signup-form input::placeholder{
+	font-weight: bold;
+}
+
+.btn{
+	padding: 13px 8px;
+	font-weight: bold;
+	border: 1px solid #ffff;
+	background-color: transparent;
+	
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer; 
+	outline: none;
+	width: 30%;
+	border-radius: 3px;
+}
+
+/*for footer container*/
+/*//////*/
+
+footer{
+
+	margin: 0px 0px;
+	
+	background-color: #363e50;
+
+}
+
+#footer-container{
+	display: flex;
+	/*border: solid blue;*/
+	flex-direction: column;
+	justify-content: center;
+   align-items: center;
+	background-color: #363e50;
+	margin: auto;
+}
+
+.copyright-box{
+	/*border: solid red;*/
+    position: relative;
+	width: 30%;
+	padding: 5px 20px;
+	text-align: center;
+	color: white;
+	align-items: center;
+	font-weight: bold;
+}
+.copyright-box h4{
+
+padding-top: 25px;
+margin: auto;
+
+}
+
+.icon-box{
+	/*border: solid yellow;*/
+	width: 100%;
+	display: flex;
+	padding: 5px 24px;
+	justify-content: center;
+
+
+
+
+}
+.icon-box ul{
+	position: relative;
+	list-style: none;
+	/*border: solid green;*/
+	display: flex;
+	position: relative;
+    margin: auto;
+    justify-content: center;
+    padding: 5px 15px;
+}
+.icon-box li{
+	width: 100%;
+	list-style: none;
+	padding: 8px 12px;
+	color: gray;
+	background-color: #ffff;
+	border-radius: 100%;
+	margin: 4px;
+    
+}
+.icon-box li:hover{
+    background-color:#F2745F; 
+	transition: 0.38s;
+	list-style: none;
+	padding: 8px 12px;
+	color: gray;
+	
+	border-radius: 100%;
+	margin: 4px;
+    
+}
+
+.para-box{
+    
+	width: 100%;
+	padding: 5px 40px;
+	color: white;
+	align-items: center;
+	font-weight: bold;
+	text-align: center;
+
+
+}
+.para-box p{
+
+padding-top: 25px;
+
+}
+
+
+
+
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 1100px)
+{
+
+#navbar{
+	display: flex;
+	/*border: solid yellow;*/
+	padding: 41px 46px;
+	justify-content: center;
+	margin: 0px 125px;
+
+	border-top: 0.19px solid gray;
+   
+}
+.navbarItems{
+	padding: 15px 15px;
+	font-weight: bold;
+
+}
+.navbarItems a{
+	margin: 0px 15px;
+	color: gray;
+	font-weight: bolder;
+	text-decoration: none;
+    
+}
+#toggle-navbar{
+	display: flex;
+	/*border: solid yellow;*/
+	padding: 36px 46px;
+	justify-content: center;
+	margin: 0px 125px;
+display: none;
+	border-top: 0.19px solid gray;
+   
+}
+
+.toggle-navbarItems{
+	  display: none;
+
+}
+.toggle-navbarItems a{
+	
+      display: none;
+}
+
+
+
+
+#bottom-feature-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 400px;
+	background: transparent;
+	background: url("https://templatemo.com/templates/templatemo_507_victory/img/signup-bg.jpg") no-repeat center center/cover;
+	color: white;
+	font-weight: bold;
+
+}
+
+
+
+.signup-form{
+	display: flex;
+    /*border: solid yellow;*/
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	padding: 0px;
+}
+
+
+.signup-form input{
+padding: 12px 20px;
+border-style: none;
+outline: none;
+line-height: 1.4554;
+ font-family: 'Roboto', sans-serif;;
+font-size: 14px;
+border-radius: 3px;
+width: 100%;
+margin:0px 14px;
+
+}
+.signup-form input::placeholder{
+	font-weight: bold;
+}
+
+.btn{
+	padding: 13px 8px;
+	font-weight: bold;
+	border: 1px solid #ffff;
+	background-color: transparent;
+	
+	color: #ffffff;
+	/*display: inline-block;*/
+	text-align: center;
+	cursor: pointer; 
+	outline: none;
+	width: 45%;
+	border-radius: 3px;
+}
+
+
+
+/*//////*/
+#footer-container{
+	display: flex;
+	/*border: solid blue;*/
+	justify-content: center;
+	
+	background-color: #363e50;
+	margin: auto;
+}
+
+.copyright-box{
+	/*border: solid red;*/
+    position: relative;
+	width: 30%;
+	padding: 25px 40px;
+	text-align: center;
+	color: white;
+	align-items: center;
+	font-weight: bold;
+}
+.copyright-box h4{
+
+padding-top: 25px;
+
+}
+
+.icon-box{
+	/*border: solid yellow;*/
+	width: 30%;
+	display: flex;
+	padding: 25px 24px;
+	justify-content: center;
+
+
+
+
+}
+.icon-box ul{
+	position: relative;
+	list-style: none;
+	/*border: solid green;*/
+	display: flex;
+	position: relative;
+    margin: auto;
+    justify-content: center;
+    padding: 25px 15px;
+}
+.icon-box li{
+	
+	list-style: none;
+	padding: 8px 12px;
+	color: gray;
+	background-color: #ffff;
+	border-radius: 100%;
+	margin: 4px;
+    
+}
+.icon-box li:hover{
+    background-color:#F2745F; 
+	transition: 0.38s;
+	list-style: none;
+	padding: 8px 12px;
+	color: gray;
+	
+	border-radius: 100%;
+	margin: 4px;
+    
+}
+
+.para-box{
+    
+	width: 30%;
+	padding: 25px 40px;
+	color: white;
+	align-items: center;
+	font-weight: bold;
+	text-align: center;
+
+
+}
+.para-box p{
+
+padding-top: 25px;
+
+}
+
+
+
+}
